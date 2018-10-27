@@ -1,8 +1,8 @@
 function Enviar() {
  
-    let mulher = document.getElementById("mulherid").value.toLowerCase();
+    let mulher = document.getElementById("mulherid");
  
-    if (mulher.value === "SIM") {
+    if (mulher.value.toLowerCase() === "sim") {
            alert('Ok, vá para a questão dois')}
     else  {
         alert('Obrigada pela participação, mas você foi eliminado')
@@ -12,9 +12,9 @@ function Enviar() {
 
 function Enviar2() {
  
-    let feminista = document.getElementById("feministaid").value.toLowerCase();
+    let feminista = document.getElementById("feministaid");
  
-    if (feminista.value === "SIM") {
+    if (feminista.value.toLowerCase()=== "sim") {
            alert('Ok, vá para a questão três');
     }
     else  {
@@ -25,9 +25,9 @@ function Enviar2() {
 
 function Enviar3(){
  
-    let bozo = document.getElementById("bozoid").value.toLowerCase;
+    let bozo = document.getElementById("bozoid");
  
-    if (bozo.value === "SIM") {
+    if (bozo.value.toLowerCase() === "sim") {
            alert('Procure um psquiatra');
     }
     else {
