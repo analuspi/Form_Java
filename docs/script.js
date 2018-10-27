@@ -6,6 +6,7 @@ function Enviar() {
            alert('Ok, vá para a questão dois')}
     else if (mulher.value ==="não") {
         alert('Obrigada pela participação, mas você foi eliminado')}
+ return false
     }
 
 function Enviar2() {
@@ -16,6 +17,7 @@ function Enviar2() {
            alert('Ok, vá para a questão três')}
     else if (feminista.value ==="não") {
         alert('Obrigada pela participação, mas você foi eliminada')}
+ return false
 }
 
 function Enviar3(){
@@ -26,4 +28,5 @@ function Enviar3(){
            alert('Procure um psquiatra')}
     else if (mulher.value ==="não") {
         alert('Obrigada pela participação, você é muito esperta!')}
+ return false
     }
